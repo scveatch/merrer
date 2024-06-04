@@ -19,7 +19,6 @@ for line in sys.stdin:
         current_count += count 
     else: 
         if current_word: 
-            # write result to STDOUT 
             print('%s\t%s' % (current_word, current_count))
         current_count = count 
         current_word = word 
